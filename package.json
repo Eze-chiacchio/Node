@@ -1,0 +1,19 @@
+{
+  "name": "final1",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "mocha --recursive",
+    "tdd": "nodemon --exec mocha --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17"
+  }
+}
